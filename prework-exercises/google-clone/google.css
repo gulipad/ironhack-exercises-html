@@ -1,0 +1,215 @@
+
+
+
+
+/* ---- Header ---- */
+header {
+  height: 100px;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  margin: 20px 30px  0 0;
+  display: inline;
+  float: left;
+  margin-left: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.topbar {
+  font-size: 12px;
+  color: #444;
+}
+
+.more {
+  background: url(google-icons.png) 141px 404px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.more:hover {
+  background: url(google-icons.png) 103px 440px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.campanilla {
+  background: url(google-icons.png) 363px -2px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.campanilla:hover {
+  background: url(google-icons.png) 0 0;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.profilepic {
+  background: url(https://lh3.googleusercontent.com/-5bk5h5q3AvY/AAAAAAAAAAI/AAAAAAAAAAA/APaXHhTfUtHsmWaZ8QrBWCMGW2zv5KA9cA/s32-c-mo/photo.jpg) 0 0;
+  height: 30px;
+  width: 30px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  border-radius: 30px;
+}
+
+/* ---- Body ---- */
+
+body {
+  font-family: arial,sans-serif;
+}
+
+.main {
+  margin-top: 70px;
+}
+
+.google-logo {
+  top: 400px;
+  margin: auto;
+  clear: both;
+  display: block;
+}
+
+.form {
+  display: block;
+  padding-right: 35px;
+  margin: auto;
+  width: 520px;
+  height: 40px;
+  border: 1px solid #5f85f4;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+#search-bar {
+  margin: auto;
+  font-size: 18px;
+  height: 35px;
+  width: 550px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display:none;
+}
+
+.google-mic {
+  float: right;
+  width: 6%;
+  padding: 2px;
+  height: auto;
+  margin-right: -25px;
+}
+
+#submit {
+  width: 112px;
+  margin: 8px;
+  padding: 1px;
+  border: 1px solid #EEE;
+  background-color: #CCC;
+}
+
+.buttons {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold; 
+  text-align: center;
+  background-color: #EDEDED;
+  padding: 10px 12px 10px 12px;
+  border-radius: 3px;
+  height: 18px;
+}
+
+.buttons:hover {
+  box-shadow: 0.5px 1px 0.5px 0.5px #BBB;
+}
+
+.button-text {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #656565; 
+}
+
+.button-text:hover {
+  text-decoration: none;
+}
+
+.center {
+  margin: auto;
+  clear: both;
+  display: block;
+  margin-top: 0;
+  width: 250px;
+}
+
+.languages {
+  margin: auto;
+  padding-top:28px;
+  padding-left: 70px;
+  font-size: 13px;
+  width: 400px;
+}
+.lang {
+  color: blue;
+}
+
+
+/* ---- Footer ---- */
+
+footer {
+  font-size: 12px;
+  position: fixed;
+  padding-bottom: 14px;
+  bottom:0;
+  height: 32px;
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+footer > div {
+  display: inline;
+}
+
+.left-footer {
+  margin: 0 0 0 25px;
+  float: left;
+}
+
+.right-footer  {
+  margin: 0 20px 0 0;
+  float: right;
+}
+
+footer li a{
+  font-family: sans-serif;;
+  color: #666;
+}
+
+span {
+  color: #A30000;
+}
